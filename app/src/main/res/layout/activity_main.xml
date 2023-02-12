@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A673AB7"
+    android:rotation="0"
+    android:rotationY="0"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/syllabus_pdf"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="#00673AB7"
+        android:rotationX="38"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/syllabus" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:background="#673AB7"
+        android:rotation="-4"
+        android:rotationY="20"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205"
+        app:srcCompat="@drawable/cgm"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:background="#673AB7"
+        android:rotation="4"
+        android:rotationY="-20"
+        app:layout_constraintBottom_toTopOf="@+id/python_pdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/mcwc" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="268dp"
+        android:background="#673AB7"
+        android:rotation="4"
+        android:rotationY="-20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cd" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="268dp"
+        android:background="#673AB7"
+        android:rotation="-4"
+        android:rotationY="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/se" />
+
+    <ImageView
+        android:id="@+id/python_pdf"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="#673AB7"
+        android:rotation="-4"
+        android:rotationY="20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.387"
+        app:srcCompat="@drawable/pp" />
+
+    <ImageView
+        android:id="@+id/android_pdf"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="#673AB7"
+        android:rotation="4"
+        android:rotationY="-22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/python_pdf"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.389"
+        app:srcCompat="@drawable/ap" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT601"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT602"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT603"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/python_pdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT604"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/android_pdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT605"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/python_pdf"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT606"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/android_pdf"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#00D5BEFF"
+        android:shadowColor="#FFE81E"
+        android:text="Made by @Naveen Singh"
+        android:textColor="#190043"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
